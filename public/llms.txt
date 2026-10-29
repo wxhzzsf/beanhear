@@ -1,0 +1,28 @@
+# BeanHear
+
+> BeanHear is an iOS story-reading app by WXH Labs for adult parents and caregivers with babies and young children approximately ages 0–5.
+
+## Product facts
+- Primary website: https://beanhear.com
+- Support: support@wxhlabs.com
+- Intended iOS flow: sign in, record approximately 20 seconds of your own adult voice (or an adult voice you are authorized to use), then unlock stories.
+- Parent-voice narration is generated using a cloned voice; it is not a live parent reading.
+- Stories are based on public-domain classics. No library size or title availability is promised here.
+- The intended listening experience is hands-free on an iPhone or connected speaker, under caregiver supervision.
+- Free includes 7 points. Points are not a promise of 7 stories.
+- Premium pricing: US$7.99 per month or US$59.99 per year via Apple in-app purchase. Final local prices and subscription terms are shown in the iOS App Store purchase flow.
+- The App Store / TestFlight link is a clearly marked placeholder until a real listing URL is configured. This landing page does not establish that the iOS app is publicly released.
+
+## Website scope
+- Day1 is a public landing website only.
+- No logged-in web app, story player, voice upload, product API, Firebase integration, Stripe checkout, or web purchases are offered.
+- The technical health endpoint /api/health returns { "ok": true, "product": "beanhear" }.
+- Vercel Web Analytics is included for website traffic analytics.
+- No users, downloads, testimonials, revenue, clinical benefits, or growth metrics are claimed.
+
+## Pages
+- [Home](https://beanhear.com/)
+- [Privacy](https://beanhear.com/privacy)
+- [Terms](https://beanhear.com/terms)
+- [Support](https://beanhear.com/support)
+- [iOS app link](https://beanhear.com/app): redirects to the configured App Store / TestFlight URL, or back to the homepage placeholder.
