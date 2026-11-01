@@ -3,23 +3,203 @@
   "rewrites": [
     {
       "source": "/assn",
-      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
       "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/assn"
     },
     {
       "source": "/assn/(.*)",
-      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
       "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/assn"
     },
     {
       "source": "/inngestServe",
-      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
       "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/inngestServe"
     },
     {
       "source": "/inngestServe/(.*)",
-      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
       "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/inngestServe"
+    },
+    {
+      "source": "/me",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/me"
+    },
+    {
+      "source": "/catalog",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/catalog"
+    },
+    {
+      "source": "/entitlements",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/entitlements"
+    },
+    {
+      "source": "/unlock",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/unlock"
+    },
+    {
+      "source": "/ahaComplete",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/ahaComplete"
+    },
+    {
+      "source": "/recordStoryPlay",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/recordStoryPlay"
+    },
+    {
+      "source": "/voices-list",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/voices-list"
+    },
+    {
+      "source": "/voices-create",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/voices-create"
+    },
+    {
+      "source": "/voices-delete",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/voices-delete"
+    },
+    {
+      "source": "/jobs-get",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/jobs-get"
+    },
+    {
+      "source": "/jobs-list",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/jobs-list"
+    },
+    {
+      "source": "/preferences-update",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/preferences-update"
+    },
+    {
+      "source": "/account-delete",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/account-delete"
+    },
+    {
+      "source": "/purchases-reconcile",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/purchases-reconcile"
+    },
+    {
+      "source": "/purchases-sync",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/purchases-sync"
+    },
+    {
+      "source": "/push-register",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/push-register"
     }
   ]
 }

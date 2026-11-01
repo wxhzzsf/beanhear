@@ -1,6 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const API_HOST = 'api.beanhear.com';
+const CALLABLE_PATHS = new Set([
+  '/me',
+  '/catalog',
+  '/entitlements',
+  '/unlock',
+  '/ahaComplete',
+  '/recordStoryPlay',
+  '/voices-list',
+  '/voices-create',
+  '/voices-delete',
+  '/jobs-get',
+  '/jobs-list',
+  '/preferences-update',
+  '/account-delete',
+  '/purchases-reconcile',
+  '/purchases-sync',
+  '/push-register',
+]);
 
 export function middleware(req: NextRequest) {
   const host = req.headers.get('host')?.split(':')[0]?.toLowerCase();
@@ -12,7 +30,7 @@ export function middleware(req: NextRequest) {
     url.pathname = '/api-host.html';
     return NextResponse.rewrite(url);
   }
-  if (pathname.startsWith('/assn') || pathname.startsWith('/inngestServe') || pathname.startsWith('/.well-known/')) {
+  if (CALLABLE_PATHS.has(pathname) || pathname.startsWith('/assn') || pathname.startsWith('/inngestServe') || pathname.startsWith('/.well-known/')) {
     return NextResponse.next();
   }
   if (pathname === '/favicon.ico' || pathname === '/icon.svg') {
