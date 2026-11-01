@@ -30,9 +30,9 @@ export default function SupportPage() {
         <section>
           <h2>Where can I get BeanHear?</h2>
           <p>
-            BeanHear is an iOS product. Use the App Store or TestFlight link on
-            the <a href="/">homepage</a> when available. If a distribution link
-            has not been published, email us to ask about availability. This
+            BeanHear is an iOS app. Contact{" "}
+            <a href="mailto:support@wxhlabs.com">support@wxhlabs.com</a>{" "}
+            for availability. This
             website introduces the product; it has no sign-in, voice upload,
             or story player.
           </p>
@@ -52,7 +52,7 @@ export default function SupportPage() {
         <section>
           <h2>What are the plans?</h2>
           <p>
-            Free includes 7 points. Premium is $7.99 per month or $59.99 per
+            Free includes 3 points. Premium is $7.99 per month or $59.99 per
             year through Apple in-app purchase. Check the App Store purchase
             screen for the offer, local price, and renewal terms available
             to you. There is no web checkout.

@@ -2,7 +2,7 @@
 
 The Day1 landing website for **BeanHear by WXH Labs**, an iOS story-reading product for caregivers with children approximately ages 0–5. Canonical URL: https://beanhear.com. Support: [support@wxhlabs.com](mailto:support@wxhlabs.com).
 
-The intended iOS experience is sign in → record about 20 seconds of an authorized adult voice → unlock public-domain stories for hands-free listening. Advertised plans are Free with 7 points and Premium at US$7.99/month or US$59.99/year through Apple in-app purchase. App availability and final purchase terms must be confirmed in the app’s listing and purchase flow.
+The intended iOS experience is sign in → record about 20 seconds of an authorized adult voice → unlock public-domain stories for hands-free listening. Advertised plans are Free with 3 points and Premium at US$7.99/month or US$59.99/year through Apple in-app purchase. App availability and final purchase terms must be confirmed in the app’s listing and purchase flow.
 
 This repository contains only the public landing site. It has no logged-in web app, voice upload, web player, product API, Firebase, Stripe, or web checkout. It makes no user, download, testimonial, or revenue claims.
 
@@ -32,17 +32,17 @@ npm start
 | `APP_STORE_URL` | Optional HTTPS App Store or TestFlight listing URL. Takes precedence over the public alias. |
 | `NEXT_PUBLIC_APP_STORE_URL` | Optional alternative listing URL when `APP_STORE_URL` is empty. |
 
-Only `https://apps.apple.com/...` and `https://testflight.apple.com/...` URLs are accepted. With no valid listing configured, the download badge remains an availability placeholder and `/app` redirects to the homepage (`/#`). Add the real URL in the deployment environment and rebuild when distribution becomes available. Keep local environment files out of Git.
+Only `https://apps.apple.com/...` and `https://testflight.apple.com/...` URLs are accepted. With no valid listing configured, the badge reads “BeanHear / iOS app” and links to `#`; `/app` redirects to the homepage (`/#`). To link a published listing, set its real URL in the deployment environment and rebuild. Keep local environment files out of Git.
 
 ## Routes
 
 | Route | Content |
 | --- | --- |
-| `/` | Hero, how it works, iOS link placeholder, pricing, FAQ, and support footer |
+| `/` | Hero, how it works, iOS app badge, pricing, FAQ, and support footer |
 | `/privacy` | Website privacy notice; app voice-processing practices are outside its scope |
 | `/terms` | Website terms and Apple purchase information |
 | `/support` | Email support and common questions |
-| `/app` | HTTP 307 redirect to the configured listing or homepage placeholder |
+| `/app` | HTTP 307 redirect to the configured listing or homepage |
 | `/api/health` | `{ "ok": true, "product": "beanhear" }` |
 | `/llms.txt` | Honest product facts and Day1 scope |
 | `/robots.txt`, `/sitemap.xml` | Search discovery metadata |

@@ -12,7 +12,7 @@ export default function TermsPage() {
         <p className="eyebrow">BeanHear · WXH Labs</p>
         <h1>A few simple terms.</h1>
         <p>These terms cover your use of the BeanHear website.</p>
-        <p className="legal-updated">Last updated: October 29, 2026</p>
+        <p className="legal-updated">Last updated: November 1, 2026</p>
       </header>
 
       <article className="legal-card prose">
@@ -28,7 +28,8 @@ export default function TermsPage() {
           <p>
             The iOS app is a separate service. App availability, compatibility,
             feature access, and any additional app terms should be checked in
-            the app and its App Store or TestFlight listing when available.
+            the app and its App Store or TestFlight listing when listed. Contact
+            support@wxhlabs.com for availability.
           </p>
         </section>
 
@@ -59,7 +60,7 @@ export default function TermsPage() {
         <section>
           <h2>Plans and purchases</h2>
           <p>
-            The advertised plans are Free with 7 points, and Premium at $7.99 per
+            The advertised plans are Free with 3 points, and Premium at $7.99 per
             month or $59.99 per year through Apple in-app purchase. This website
             does not take payments. The App Store purchase screen is the place
             to confirm the available offer, local price, billing period, and
@@ -78,10 +79,9 @@ export default function TermsPage() {
         <section>
           <h2>Product information and external links</h2>
           <p>
-            Product information may change as BeanHear develops. An App Store
-            or TestFlight link may be a placeholder until a distribution link
-            is available. The website does not promise a release date or
-            uninterrupted availability of an app feature.
+            Product information may change as BeanHear develops. Contact
+            support@wxhlabs.com for app availability. The website does not
+            promise a release date or uninterrupted availability of an app feature.
           </p>
           <p>
             External links are provided for convenience. Apple, Vercel, and

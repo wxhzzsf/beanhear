@@ -9,9 +9,9 @@
 - Parent-voice narration is generated using a cloned voice; it is not a live parent reading.
 - Stories are based on public-domain classics. No library size or title availability is promised here.
 - The intended listening experience is hands-free on an iPhone or connected speaker, under caregiver supervision.
-- Free includes 7 points. Points are not a promise of 7 stories.
+- Free includes 3 points. Points are not a promise of 3 stories.
 - Premium pricing: US$7.99 per month or US$59.99 per year via Apple in-app purchase. Final local prices and subscription terms are shown in the iOS App Store purchase flow.
-- The App Store / TestFlight link is a clearly marked placeholder until a real listing URL is configured. This landing page does not establish that the iOS app is publicly released.
+- BeanHear is an iOS app. Contact support@wxhlabs.com for availability. A real App Store / TestFlight listing URL is used if configured through APP_STORE_URL or NEXT_PUBLIC_APP_STORE_URL. This landing page does not establish that the iOS app is publicly released.
 
 ## Website scope
 - Day1 is a public landing website only.
@@ -25,4 +25,4 @@
 - [Privacy](https://beanhear.com/privacy)
 - [Terms](https://beanhear.com/terms)
 - [Support](https://beanhear.com/support)
-- [iOS app link](https://beanhear.com/app): redirects to the configured App Store / TestFlight URL, or back to the homepage placeholder.
+- [iOS app link](https://beanhear.com/app): redirects to the configured App Store / TestFlight URL, or back to the homepage.
