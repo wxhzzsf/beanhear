@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/assn",
+      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/assn"
+    },
+    {
+      "source": "/assn/(.*)",
+      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/assn"
+    },
+    {
+      "source": "/inngestServe",
+      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/inngestServe"
+    },
+    {
+      "source": "/inngestServe/(.*)",
+      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/inngestServe"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "api.beanhear.com" }],
+      "destination": "/api-host.html"
+    }
+  ]
+}
