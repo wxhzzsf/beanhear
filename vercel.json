@@ -82,6 +82,16 @@
       "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/unlock"
     },
     {
+      "source": "/composeLullaby",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.beanhear.com"
+        }
+      ],
+      "destination": "https://us-central1-beanhear-b1c54.cloudfunctions.net/composeLullaby"
+    },
+    {
       "source": "/ahaComplete",
       "has": [
         {
