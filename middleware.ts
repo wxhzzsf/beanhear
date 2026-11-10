@@ -6,6 +6,7 @@ const CALLABLE_PATHS = new Set([
   '/catalog',
   '/entitlements',
   '/unlock',
+  '/composeLullaby',
   '/ahaComplete',
   '/recordStoryPlay',
   '/voices-list',
