@@ -39,7 +39,7 @@ Only `https://apps.apple.com/...` and `https://testflight.apple.com/...` URLs ar
 | Route | Content |
 | --- | --- |
 | `/` | Hero, how it works, iOS app badge, pricing, FAQ, and support footer |
-| `/privacy` | Website privacy notice; app voice-processing practices are outside its scope |
+| `/privacy` | Website and iOS privacy notice, AI voice providers, consent, retention, and deletion |
 | `/terms` | Website terms and Apple purchase information |
 | `/support` | Email support and common questions |
 | `/app` | HTTP 307 redirect to the configured listing or homepage |
