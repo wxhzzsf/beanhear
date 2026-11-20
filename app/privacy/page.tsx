@@ -153,8 +153,10 @@ export default function PrivacyPage() {
           <p>
             In Me, use the trash button beside a voice to remove its stored
             recording, generated audio, and unlock records and request deletion
-            of its song voice profile. The app removes that voice’s local sample
-            and playback cache. A minimal ownership/deletion marker and some
+            of its song voice profile. The app removes that voice’s local recording sample. Downloaded
+            playback files can remain in the app’s cache until the device clears
+            it or the app is removed; the deleted voice is no longer listed.
+            A minimal ownership/deletion marker and some
             job or accounting records can remain until account deletion.
             Pending generation may need to finish first; unresolved song jobs
             can require support. Provider or storage errors can delay cleanup.
